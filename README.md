@@ -1,16 +1,24 @@
-## Hi there 👋
+# Hi, I'm linzch3
 
-<!--
-**linzch3/linzch3** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+I contribute fixes to databases, data systems, and backend infrastructure, with a focus on correctness, reproducible bugs, and regression tests.
 
-Here are some ideas to get you started:
+## Selected open-source contributions
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+| Project | Problem solved | Merged PR |
+| --- | --- | --- |
+| **Apache PyIceberg** · Python | Fixed inconsistent filtered counts when a REST server omits the residual filter; added regression coverage for initial and paginated scan tasks. | [#4379](https://github.com/apache/iceberg-python/pull/4379) |
+| **TiDB** · Go | Fixed incorrect query ordering for expressions involving `NULL`, including prepared statements with cached plans; added regression tests. | [#72707](https://github.com/pingcap/tidb/pull/72707) |
+| **Armeria** · Java | Fixed sign extension when decoding values across buffers, preventing valid WebSocket frames from being rejected; added boundary tests. | [#7114](https://github.com/line/armeria/pull/7114) |
+
+[Explore my merged pull requests →](https://github.com/search?q=author%3Alinzch3+is%3Apr+is%3Amerged+is%3Apublic&type=pullrequests)
+
+## Projects & learning
+
+- [KNN MapReduce from scratch](https://github.com/linzch3/KNN-Mapreduce-From-Scratch) — a KNN implementation using MapReduce.
+- [Open Course Learning](https://github.com/linzch3/Open-Course-Learning) — course notes and a long-running learning archive.
+
+## How I work
+
+Reproduce the failure, trace the cause, make a focused fix, and add a regression test.
+
+I use AI-assisted development, review the changes, and take responsibility for the work I submit.
