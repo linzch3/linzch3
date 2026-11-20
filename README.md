@@ -17,7 +17,7 @@ checker, stability-region analysis and empirical convergence-order tests. Depend
 
 ## Open-source contributions
 
-I contribute documentation to SciPy and the SciML ecosystem, and bug fixes and regression tests to PyIceberg, TiDB and Armeria.
+I've fixed bugs in how TiDB orders query results, how PyIceberg counts filtered rows, and how Armeria decodes WebSocket frames that span multiple buffers.
 
 ## Earlier projects and notes
 
