@@ -17,7 +17,7 @@ checker, stability-region analysis and empirical convergence-order tests. Depend
 
 ## Open-source contributions
 
-I've fixed bugs in how TiDB orders query results, how PyIceberg counts filtered rows, and how Armeria decodes WebSocket frames that span multiple buffers.
+I contribute to open-source data systems and backend infrastructure, including TiDB, PyIceberg, and Armeria.
 
 ## Earlier projects and notes
 
