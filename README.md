@@ -3,8 +3,6 @@
 I work on **applied mathematics and numerical computing**, and contribute fixes to
 **databases and data systems**, with a focus on correctness, reproducible bugs, and tests.
 
-应用数学与数值计算 · 数据系统与开源贡献
-
 ## Focus areas
 
 - **Numerical methods for ODEs**: Runge–Kutta methods, stiff solvers, step-size control, stability analysis
@@ -21,21 +19,21 @@ checker, stability-region analysis and empirical convergence-order tests. Depend
 
 **Scientific computing**
 
-| Project | Contribution | PR | Status |
-| --- | --- | --- | --- |
-| **Catalyst.jl** (SciML) · Julia | Added a "Common mistakes" documentation page for reaction-network modeling. | [#1584](https://github.com/SciML/Catalyst.jl/pull/1584) | Merged |
-| **SciPy** · Python | Added references and a parameter mapping to the `scipy.stats.invgamma` docs. | [#26623](https://github.com/scipy/scipy/pull/26623) | Approved, awaiting merge |
-| **DataInterpolationsND.jl** (SciML) · Julia | Compact `show` output for N-dimensional interpolation objects. | [#109](https://github.com/SciML/DataInterpolationsND.jl/pull/109) | In review |
+| Project | Contribution | PR |
+| --- | --- | --- |
+| **Catalyst.jl** (SciML) · Julia | Added a "Common mistakes" documentation page for reaction-network modeling. | [#1584](https://github.com/SciML/Catalyst.jl/pull/1584) |
+| **SciPy** · Python | Added references and a parameter mapping to the `scipy.stats.invgamma` docs. | [#26623](https://github.com/scipy/scipy/pull/26623) |
+| **DataInterpolationsND.jl** (SciML) · Julia | Compact `show` output for N-dimensional interpolation objects. | [#109](https://github.com/SciML/DataInterpolationsND.jl/pull/109) |
 
 **Databases and data systems**
 
-| Project | Problem solved | PR | Status |
-| --- | --- | --- | --- |
-| **Apache PyIceberg** · Python | Fixed inconsistent filtered counts when a REST server omits the residual filter; added regression coverage for initial and paginated scan tasks. | [#4379](https://github.com/apache/iceberg-python/pull/4379) | Merged |
-| **TiDB** · Go | Fixed incorrect query ordering for expressions involving `NULL`, including prepared statements with cached plans; added regression tests. | [#72707](https://github.com/pingcap/tidb/pull/72707) | Merged |
-| **Armeria** · Java | Fixed sign extension when decoding values across buffers, preventing valid WebSocket frames from being rejected; added boundary tests. | [#7114](https://github.com/line/armeria/pull/7114) | Merged |
+| Project | Problem solved | PR |
+| --- | --- | --- |
+| **Apache PyIceberg** · Python | Fixed inconsistent filtered counts when a REST server omits the residual filter; added regression coverage for initial and paginated scan tasks. | [#4379](https://github.com/apache/iceberg-python/pull/4379) |
+| **TiDB** · Go | Fixed incorrect query ordering for expressions involving `NULL`, including prepared statements with cached plans; added regression tests. | [#72707](https://github.com/pingcap/tidb/pull/72707) |
+| **Armeria** · Java | Fixed sign extension when decoding values across buffers, preventing valid WebSocket frames from being rejected; added boundary tests. | [#7114](https://github.com/line/armeria/pull/7114) |
 
-[All my merged pull requests →](https://github.com/search?q=author%3Alinzch3+is%3Apr+is%3Amerged+is%3Apublic&type=pullrequests)
+[More pull requests →](https://github.com/search?q=author%3Alinzch3+is%3Apr+is%3Apublic&type=pullrequests)
 
 ## Earlier projects and notes
 
@@ -51,3 +49,4 @@ test checks the mathematics too: convergence order, stability, conservation.
 I use AI-assisted development, review the changes, and take responsibility for the work I submit.
 
 Reach me here on GitHub: open an issue or mention **@linzch3**.
+
