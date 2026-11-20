@@ -1,7 +1,6 @@
 # Hi, I'm linzch3
 
-I work on **applied mathematics and numerical computing**, and contribute fixes to
-**databases and data systems**, with a focus on correctness, reproducible bugs, and tests.
+I work on applied mathematics, numerical computing, and open-source data systems.
 
 ## Focus areas
 
